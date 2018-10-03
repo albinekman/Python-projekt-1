@@ -217,8 +217,7 @@ while x == True:
                  print("Password i incorrect")
      elif option == 4: #Avsluta programmet
          print("Godbye")
-         break
-         quit()
+         break        
 
      else:
          print("You can only pick 1, 2 or 3")
