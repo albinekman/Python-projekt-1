@@ -85,7 +85,7 @@ class User:
                     with open(self.file, "w+") as g:
                         g.write(input("New password") + "\n")
                         g.write(str(currency))
-                elif option1 == 4: #Logga ut
+                elif option1 == 4: 
                     print('''You start with 100 currecy. 
 For each time you play you will be charged with 5 currency.
 You will get to choose 2 numbers, first between 1-10 and then between 1-20.
@@ -95,7 +95,7 @@ second number is correct you will ger 20 currency and if both is correct
 you will ger 50 currency.''')
 
                 elif option1 == 5: #Logga ut
-                    print("Godbye")
+                    print("Goodbye")
                     y = False
                 else:
                     print("You can only choose 1,2,3, or 4")
@@ -203,9 +203,9 @@ while x == True:
                 break
             else:
                 x = True
-                print("Username or password i incorrect")
+                print("Username or password is incorrect")
          except:
-            print("Username or password i incorrect")
+            print("Username or password is incorrect")
      elif option == 3: #Logga in som admin
          Password = input("Password:")
          admin = open("admin.txt", "r")
@@ -214,9 +214,9 @@ while x == True:
                  admin1 = Admin()
                  admin1.admin()
              else:
-                 print("Password i incorrect")
+                 print("Password is incorrect")
      elif option == 4: #Avsluta programmet
-         print("Godbye")
+         print("Goodbye")
          break        
 
      else:
