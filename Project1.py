@@ -98,9 +98,9 @@ you will ger 50 currency.''')
                     print("Goodbye")
                     y = False
                 else:
-                    print("You can only choose 1,2,3, or 4")
+                    print("You can only choose 1,2,3,4 or 5")
             except:
-                print("You can only choose 1,2,3, or 4")
+                print("You can only choose 1,2,3,4 or 5")
 
 class Admin:
     def admin(self):
@@ -167,9 +167,9 @@ class Admin:
                     y = False
 
                 else:
-                    print("You can only choose 1,2,3, or 4")
+                    print("You can only choose 1,2,3,4 or 5")
             except:
-                print("You can only choose 1,2,3, or 4")
+                print("You can only choose 1,2,3,4 or 5")
 x = True
 while x == True:
     try:
@@ -220,6 +220,6 @@ while x == True:
          break        
 
      else:
-         print("You can only pick 1, 2 or 3")
+         print("You can only pick 1, 2, 3 or 4")
     except:
-        print("You can only pick 1,2 or 3")
+        print("You can only pick 1,2,3 or 4")
